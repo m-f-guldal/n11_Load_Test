@@ -11,3 +11,7 @@ rastgele keyword'lerin gönderilmek istendiği websitesi yazılır
 
 Örnek olarak:
 locust -f C:\Users\......\SearchingLoadTest.py --host=https://n11.com
+dosyaların indirildiği konumda locust komutu çalıştırılırsa hatasız locust engine ayağa kalkacaktır
+locust arayüzünden kullanıcı ve yoğunluk parametreleri girilerek test başlatılır
+not:dosya yolu yanlış hatası alıyorsanız SearchingLoadTest'in 29. satırındaki dosya yolu güncellenerek
+hata giderilir
