@@ -26,7 +26,7 @@ def readcsv(filename):
     
     ifile.close()
     return array
-file=r"n11CekilenDatalar.csv"
+file=r"Sample.csv"
 Array1=[]
 Array1=readcsv(file)
 
